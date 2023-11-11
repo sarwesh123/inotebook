@@ -4,6 +4,7 @@ import  {Noteitems}  from './Noteitems';
 import AddNote from './AddNote';
 import { useNavigate } from 'react-router-dom';
 
+
 export const Notes = () => {
   const navigate = useNavigate();
   const context = useContext(NoteContext);
@@ -42,6 +43,7 @@ export const Notes = () => {
     <>
  <div style={{marginTop:"70px"}}>
       <AddNote />
+     
       <br />
       <hr />
       <button type="button" ref={ref} className="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">

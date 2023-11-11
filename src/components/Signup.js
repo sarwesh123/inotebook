@@ -39,7 +39,7 @@ navigate('/')
   return (
     
     <div style={{marginTop:"70px"}} className='container'>
-        <h2>Create Account</h2>
+        <h2 style={{marginLeft:"33%"}} >Create Account</h2>
         <form onSubmit={handleSubmit}>
             <div className='mb-3'>
         <label htmlFor="name" className="form-label">Name</label>

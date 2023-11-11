@@ -36,8 +36,8 @@ navigate('/')
   return (
 
    
-    <div style={{marginTop:"70px"}} className='container '>
-      <h2 >Login to continue</h2>
+    <div style={{marginTop:"100px"}} className='container '>
+      <h2  style={{marginLeft:"33%"}}>Login to continue</h2>
         <form onSubmit={handleSubmit}>
   <div className="mb-3">
     <label htmlFor="email" className="form-label">Email address</label>
