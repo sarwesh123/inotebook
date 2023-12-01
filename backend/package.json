@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps && npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
